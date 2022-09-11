@@ -13,12 +13,8 @@ This is a project template for Golang that uses the layered architecture pattern
 ```
 internal
 ├── business    (business logic layer)
-├── dependency  (manage dependencies)
 ├── handler     (presentation layer)
-├── model       (data transfer objects, business objects, errors and enums)
 └── repository  (data access layer)
-
-📝 The packages that are not a layer, are an extension of this pattern made by me based on my experience
 ```
 ##### 1️⃣ Presentation layer
 Implements the program's user interface for interactions with its consumers.
